@@ -1,0 +1,44 @@
+body,
+html {
+	width: 100%;
+	Height: 100%;
+	font-family: 'Caprasimo', cursive;
+	background: url(header.jpeg)no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+h1{
+	font-size: 3rem;
+	color: #D7E419;
+}
+
+hr{
+	margin: 10px auto;
+    color: #F58C00;
+    border: 2px solid #F58C00;
+    max-width: 85px;
+    opacity: 1;  
+
+}
+
+.btn{
+font-weight: 700;
+border-radius: 300px; 
+text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #00C10D;
+	border-color: #00C10D;
+	--bs-btn-hover-bg: #F58C00;	
+    --bs-btn-hover-border-color: #F58C00;
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
